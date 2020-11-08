@@ -10,5 +10,10 @@ int MaxSubseqSum1(int List[],int,int N){
 	    maxsum = thissum; 
 	    }
     }
+    //O(n*2)
     return maxsum;
+}
+
+int main(){
+    return 0;
 }
